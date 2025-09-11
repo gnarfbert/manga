@@ -1,4 +1,4 @@
-import MangaCard from "../components/mangadisplay";
+import MangaCard from "../components/MangaDisplay";
 import { useState, useEffect } from "react";
 import { getPopularManga } from "../services/api";
 import { searchManga } from "../services/api";

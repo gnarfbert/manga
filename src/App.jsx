@@ -1,14 +1,14 @@
 import "./css/App.css";
-import MangaCard from "./components/mangadisplay";
+import MangaCard from "./components/MangaDisplay";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Favorites from "./pages/FavoriteMangas";
-
+import { MangaProvider } from "./contexts/MangaContext";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-  <div>
+  <MangaProvider>
       <Navbar />
       <main className="main-content">
         <Routes>
@@ -16,7 +16,7 @@ function App() {
           <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </main>
-  </div>
+  </MangaProvider>
   );
 }
 
