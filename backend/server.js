@@ -33,20 +33,6 @@ app.get("/reviews/:id", async (req, res) => {
 })
 
 
-// async function addMangaToCollection(title, author, genre) {
-//     try {
-//         const docRef = await addDoc(collection(db, "manga"), {
-//             title: title,
-//             author: author,
-//             genre: genre,
-//             createdAt: new Date() // You can add timestamps!
-//         });
-//         console.log("Document written with ID: ", docRef.id);
-//     } catch (e) {
-//         console.error("Error adding document: ", e);
-//     }
-// }
-
 function start() {
     app.listen(port, () => {
         console.log(`working`)
