@@ -1,5 +1,4 @@
 import "./css/App.css";
-import MangaCard from "./components/mangadisplay";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Favorites from "./pages/FavoriteMangas";
