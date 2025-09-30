@@ -1,5 +1,5 @@
 # Manga Tracker:
-A preview of the website can be found
+A preview of the website can be found [Here](https://manga-tracker-self.vercel.app/)
 
 
 # Project Motivation:
